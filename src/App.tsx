@@ -42,6 +42,7 @@ class App extends Component<{}, IState> {
       this.setState({ data: [...this.state.data, ...serverResponds] });
     });
   if (x>1000) {
+    clearInterval(interval);
   }
 
   /**
