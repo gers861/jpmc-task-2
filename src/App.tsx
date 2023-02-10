@@ -63,7 +63,6 @@ class App extends Component<{}, IState> {
         <div className="App-content">
           <button className="btn btn-primary Stream-button"
             // new data from the server.
-            // or the server does not return anymore data.
             onClick={() => {this.getDataFromServer()}}>
           <div className="Graph">
             {this.renderGraph()}
