@@ -17,6 +17,7 @@ interface IState {
 class App extends Component<{}, IState> {
    
     // We use this state to parse data down to the child element (Graph) as element property
+
   constructor(props:{}) {
     super(props);
 
