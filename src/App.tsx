@@ -63,7 +63,6 @@ class App extends Component<{}, IState> {
         <div className="App-content">
           <button className="btn btn-primary Stream-button"
             // new data from the server.
-            // As part of your task, update the getDataFromServer() function
             // to keep requesting the data every 100ms until the app is closed
             // or the server does not return anymore data.
             onClick={() => {this.getDataFromServer()}}>
