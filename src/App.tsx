@@ -28,7 +28,6 @@ class App extends Component<{}, IState> {
   /**
    * Render Graph react component with state.data parse as property data
    */
-  renderGraph() {
     return (<Graph data={this.state.data}/>)
   }
 }
