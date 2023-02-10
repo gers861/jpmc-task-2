@@ -15,6 +15,7 @@ interface IState {
  * It renders title, button and Graph react element.
  */
 class App extends Component<{}, IState> {
+   
     super(props);
 
     this.state = {
