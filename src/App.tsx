@@ -31,6 +31,7 @@ class App extends Component<{}, IState> {
   renderGraph() {
     return (<Graph data={this.state.data}/>)
   }
+}
 
   /**
    * Get new data from server and update the state with the new data
