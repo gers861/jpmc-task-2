@@ -62,7 +62,6 @@ class App extends Component<{}, IState> {
         </header>
         <div className="App-content">
           <button className="btn btn-primary Stream-button"
-            onClick={() => {this.getDataFromServer()}}>
           <div className="Graph">
             {this.renderGraph()}
           </div>
