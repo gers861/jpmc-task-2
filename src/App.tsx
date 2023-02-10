@@ -77,6 +77,5 @@ class App extends Component<{}, IState> {
       </div>
     )
   }
-}
 
 export default App;
