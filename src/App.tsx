@@ -47,6 +47,7 @@ class App extends Component<{}, IState> {
     clearInterval(interval);
   }
 
+}, 100);
   /**
    * Render the App react component
    */
